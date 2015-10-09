@@ -1,5 +1,7 @@
 # 聊天表情控件
 
+![](https://github.com/candRabbit/EmojiView/blob/master/EmojiView/screenshot/screenshot.png)
+
 怎么使用
 
 
