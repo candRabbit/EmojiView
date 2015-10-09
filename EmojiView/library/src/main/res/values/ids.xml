@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="chat_emoji_view" type="id"></item>
+    <item name="emoji_view" type="id"></item>
+    <item name="send_btn" type="id" ></item>
+    <item name="select_emoji_btn" type="id"></item>
+    <item name="comment_edit" type="id"></item>
+
+</resources>

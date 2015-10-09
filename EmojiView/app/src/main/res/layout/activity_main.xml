@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <cn.com.lv.library.widget.AppCommentView
+        android:layout_alignParentBottom="true"
+        app:comment_layout="@layout/group_radio_comment_view"
+        android:id="@+id/app_commentview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></cn.com.lv.library.widget.AppCommentView>
+</RelativeLayout>

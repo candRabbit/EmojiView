@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:background="@drawable/dream_top_back"
+        android:id="@+id/comment_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:paddingLeft="14dp"
+            android:paddingRight="6dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/expression_icon_normal"
+                android:id="@+id/select_emoji_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio_comment_edit_bg"
+                >
+
+                <cn.com.lv.library.emoji.EmojiEditText
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:imeOptions="actionDone"
+                    android:id="@+id/comment_edit"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:maxHeight="100dp"
+                    android:background="@null"
+                    android:textSize="15sp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_centerInParent="true"
+                android:enabled="false"
+                android:id="@+id/send_btn"
+                android:layout_width="48dp"
+                android:layout_height="40dp"
+                android:background="@drawable/radio_comment_btn_bg"
+                android:text="发送"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                />
+
+
+
+        </LinearLayout>
+        <FrameLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emoji_view"
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:id="@+id/chat_emoji_view"
+                />
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>
