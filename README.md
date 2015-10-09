@@ -4,14 +4,14 @@
 
 怎么使用
 
-
-<cn.com.lv.library.widget.AppCommentView
-        android:layout_alignParentBottom="true"
-        app:comment_layout="@layout/group_radio_comment_view"
-        android:id="@+id/app_commentview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        ></cn.com.lv.library.widget.AppCommentView>
+`<cn.com.lv.library.widget.AppCommentView
+         android:layout_alignParentBottom="true"
+         app:comment_layout="@layout/group_radio_comment_view"
+         android:id="@+id/app_commentview"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         ></cn.com.lv.library.widget.AppCommentView>`
+         
         
 public class MainActivity extends AppCompatActivity implements EmojiCallBackListener {
 
