@@ -1,5 +1,7 @@
 package cn.com.lv.emojiview;
 
+import android.content.pm.PermissionInfo;
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -25,9 +27,10 @@ public class MainActivity extends AppCompatActivity implements EmojiCallBackList
             @Override
             public void sendText(String text) {
 
-                Toast.makeText(MainActivity.this,text,Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, text, Toast.LENGTH_SHORT).show();
             }
         });
+      
 
     }
 
